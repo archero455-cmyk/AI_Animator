@@ -1,0 +1,30 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- VS Code / IDE ---
+.vscode/
+.idea/
+
+# --- Blender / caches / temp ---
+*.blend1
+*.blend2
+*.tmp
+*.log
+*.bak
+
+# --- (Opcional) si tú generas archivos grandes automáticamente ---
+# animation_system/motion_bank/**/*.json
+# **/*.fbx
+# **/*.glb
+# **/*.gltf
