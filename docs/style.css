@@ -1,0 +1,41 @@
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  line-height: 1.5;
+}
+.wrap { max-width: 980px; margin: 0 auto; padding: 24px; }
+h1 { margin: 0; font-size: 40px; letter-spacing: -0.02em; }
+.sub { margin: 8px 0 0; opacity: .8; max-width: 60ch; }
+.cta { margin-top: 16px; display: flex; gap: 10px; flex-wrap: wrap; }
+.btn {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid color-mix(in oklab, currentColor 18%, transparent);
+  text-decoration: none;
+}
+.btn.primary {
+  background: color-mix(in oklab, currentColor 18%, transparent);
+  font-weight: 600;
+}
+.card {
+  border: 1px solid color-mix(in oklab, currentColor 15%, transparent);
+  border-radius: 14px;
+  padding: 18px;
+  margin: 18px 0;
+  background: color-mix(in oklab, currentColor 4%, transparent);
+}
+.muted { opacity: .75; }
+.video {
+  margin-top: 12px;
+  aspect-ratio: 16/9;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid color-mix(in oklab, currentColor 18%, transparent);
+}
+.video iframe { width: 100%; height: 100%; border: 0; display: block; }
+.foot { padding-bottom: 32px; }
+code { padding: 2px 6px; border-radius: 8px; background: color-mix(in oklab, currentColor 10%, transparent); }
