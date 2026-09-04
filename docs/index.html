@@ -9,63 +9,71 @@
 <body>
   <header class="wrap">
     <h1>AI_Animator</h1>
-    <p class="sub">Blender add-on for rig automation and retargeting. Quick demo + quickstart.</p>
+<p class="sub">
+  Blender add-on for character creation, automatic rigging, animation,
+  and motion retargeting across compatible rig systems.
+</p>
 
-    <div class="cta">
-      <!-- Replace with real checkout link later -->
-     <a class="btn primary" href="#" style="pointer-events:none; opacity:.6;">
-  Store activation in progress
-</a>
-<p class="muted">Live checkout will be available soon.</p>
-      <a class="btn" href="#install">Install</a>
-    </div>
-  </header>
+<div class="cta">
+  <a class="btn primary"
+     href="https://ai-animator.lemonsqueezy.com/checkout/buy/90a498d6-8691-4412-a835-3122daa7a2e1">
+    Buy AI_Animator Beta — $9.99
+  </a>
+  <a class="btn" href="#install">Installation</a>
+</div>
 
-  <main class="wrap">
-    <section class="card">
-      <h2>Video: How to use AI_Animator</h2>
+<section class="card">
+  <h2>Video: How to use AI_Animator</h2>
 
-      <div class="video">
-        <iframe
-          src="https://www.youtube.com/embed/f4xr2xatIFg"
-          title="AI_Animator Demo"
-          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen>
-        </iframe>
-      </div>
+  <div class="video">
+    <iframe
+      src="https://www.youtube.com/embed/f4xr2xatIFg"
+      title="AI_Animator Demo"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
 
-      <p class="muted">Tip: the <code>VIDEO_ID</code> comes from the YouTube link: <code>watch?v=VIDEO_ID</code></p>
-    </section>
+<section id="install" class="card">
+  <h2>Quick installation</h2>
+  <ol>
+    <li>Open Blender 4.5.3 or later.</li>
+    <li>Go to <b>Edit → Preferences → Add-ons</b>.</li>
+    <li>Choose <b>Install from Disk</b> and select the AI_Animator ZIP.</li>
+    <li>Enable AI_Animator.</li>
+    <li>Open the 3D Viewport sidebar and select the <b>AI Animator</b> tab.</li>
+  </ol>
+</section>
 
-    <section id="install" class="card">
-      <h2>Quick install</h2>
-      <ol>
-        <li>Blender → <b>Edit → Preferences → Add-ons</b></li>
-        <li>Click <b>Install…</b> and select the add-on ZIP</li>
-        <li>Enable the add-on (checkbox)</li>
-      </ol>
-    </section>
-
-    <section class="card">
-  <h2>Supported (current)</h2>
+<section class="card">
+  <h2>What AI_Animator Beta can do</h2>
   <ul>
-    <li>Build and manage an animation library (save/organize reusable motions).</li>
-    <li>Mixamo → Mixamo retargeting (same rig family).</li>
-    <li>MakeHuman → MakeHuman retargeting (same rig family).</li>
-    <li>Universal → Universal retargeting (same rig family).</li>
-    <li>Designed for known, clean rigs that match the expected profiles.</li>
+    <li>Create a native AI_Animator character with a Universal rig and automatic binding.</li>
+    <li>Automatically rig and bind your own humanoid mesh to the Universal rig.</li>
+    <li>Rig and animate suitable humanoid meshes created with AI modeling tools.</li>
+    <li>Create and manage reusable animation files.</li>
+    <li>Transfer animations from Mixamo to Mixamo.</li>
+    <li>Transfer animations from Universal to Universal.</li>
+    <li>Transfer animations from Mixamo to Universal.</li>
+    <li>Transfer animations from Universal to Mixamo.</li>
+    <li>Transfer animations from Mixamo to MakeHuman.</li>
+    <li>Transfer animations from Universal to MakeHuman.</li>
+    <li>Import multiple motion files as an NLA sequence.</li>
   </ul>
 
-  <h2>Not supported yet</h2>
+  <h2>Beta limitations</h2>
   <ul>
-    <li>Cross-rig retargeting between different rig types (e.g., Mixamo → Universal, Mixamo → MakeHuman, etc.).</li>
-    <li>Characters with unknown / unrecognized rig structures.</li>
-    <li>Meshes with major defects (broken weights, extreme proportions, missing bones, flipped orientation, etc.).</li>
-    <li>“Automatic fix everything” mode for badly imported or inconsistent rigs.</li>
+    <li>Motion capture is still under development and is not included in this release.</li>
+    <li>MakeHuman is currently supported as a target, not as a tested source.</li>
+    <li>Custom meshes must be clean humanoids in a T-pose or wide A-pose.</li>
+    <li>Automatic rigging and skinning may require manual adjustments on unusual meshes or extreme proportions.</li>
+    <li>Unknown or heavily modified rig structures are not guaranteed to work.</li>
   </ul>
 
   <p class="muted">
-    Note: support expands over time as new rig profiles and validation tools are added.
+    AI_Animator is currently offered as a Beta. Features and rig compatibility
+    will continue to improve during development.
   </p>
 </section>
 
