@@ -9,81 +9,105 @@
 <body>
   <header class="wrap">
     <h1>AI_Animator</h1>
-<p class="sub">
-  Blender add-on for character creation, automatic rigging, animation,
-  and motion retargeting across compatible rig systems.
-</p>
 
-<div class="cta">
-  <a class="btn primary"
-     href="https://ai-animator.lemonsqueezy.com/checkout/buy/90a498d6-8691-4412-a835-3122daa7a2e1">
-    Buy AI_Animator Beta — $24.99
-  </a>
-  <a class="btn" href="#install">Installation</a>
-</div>
+    <p class="sub">
+      Blender add-on for character creation, automatic rigging, animation,
+      motion retargeting, and video-based motion capture across compatible rig systems.
+    </p>
 
-<section class="card">
-  <h2>Video: How to use AI_Animator</h2>
+    <div class="cta">
+      <a class="btn primary"
+         href="https://ai-animator.lemonsqueezy.com/checkout/buy/90a498d6-8691-4412-a835-3122daa7a2e1">
+        Buy AI_Animator Beta — $24.99
+      </a>
+      <a class="btn" href="#install">Installation</a>
+    </div>
 
-  <div class="video">
-    <iframe  src="https://www.youtube.com/embed/fwxEoW43O3Q"
-      title="AI_Animator Demo"
-      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen>
-    </iframe>
-  </div>
-</section>
+    <section class="card">
+      <h2>Video: How to use AI_Animator</h2>
 
-<section id="install" class="card">
-  <h2>Quick installation</h2>
-  <ol>
-    <li>Open Blender 4.5.3 or later.</li>
-    <li>Go to <b>Edit → Preferences → Add-ons</b>.</li>
-    <li>Choose <b>Install from Disk</b> and select the AI_Animator ZIP.</li>
-    <li>Enable AI_Animator.</li>
-    <li>Open the 3D Viewport sidebar and select the <b>AI Animator</b> tab.</li>
-  </ol>
-</section>
+      <div class="video">
+        <iframe
+          src="https://www.youtube.com/embed/fwxEoW43O3Q"
+          title="AI_Animator Demo"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
 
-<section class="card">
-  <h2>What AI_Animator Beta can do</h2>
-  <ul>
-    <li>Create a native AI_Animator character with a Universal rig and automatic binding.</li>
-    <li>Automatically rig and bind your own humanoid mesh to the Universal rig.</li>
-    <li>Rig and animate suitable humanoid meshes created with AI modeling tools.</li>
-    <li>Create and manage reusable animation files.</li>
-    <li>Transfer animations from Mixamo to Mixamo.</li>
-    <li>Transfer animations from Universal to Universal.</li>
-    <li>Transfer animations from Mixamo to Universal.</li>
-    <li>Transfer animations from Universal to Mixamo.</li>
-    <li>Transfer animations from Mixamo to MakeHuman.</li>
-    <li>Transfer animations from Universal to MakeHuman.</li>
-    <li>Import multiple motion files as an NLA sequence.</li>
-  </ul>
+    <section id="install" class="card">
+      <h2>Quick installation</h2>
+      <ol>
+        <li>Open Blender 4.5.3 or later.</li>
+        <li>Go to <b>Edit → Preferences → Add-ons</b>.</li>
+        <li>Choose <b>Install from Disk</b> and select the AI_Animator ZIP.</li>
+        <li>Enable AI_Animator.</li>
+        <li>Open the 3D Viewport sidebar and select the <b>AI Animator</b> tab.</li>
+      </ol>
+    </section>
 
-  <h2>Beta limitations</h2>
-  <ul>
-    <li>Motion capture is still under development and is not included in this release.</li>
-    <li>MakeHuman is currently supported as a target, not as a tested source.</li>
-    <li>Custom meshes must be clean humanoids in a T-pose or wide A-pose.</li>
-    <li>Automatic rigging and skinning may require manual adjustments on unusual meshes or extreme proportions.</li>
-    <li>Unknown or heavily modified rig structures are not guaranteed to work.</li>
-  </ul>
+    <section class="card">
+      <h2>What AI_Animator Beta can do</h2>
 
-  <p class="muted">
-    AI_Animator is currently offered as a Beta. Features and rig compatibility
-    will continue to improve during development.
-  </p>
-</section>
+      <ul>
+        <li>Capture body motion from video and convert it into reusable 3D character animation.</li>
+        <li>Apply captured motion to compatible characters and rigs.</li>
+        <li>Create a native AI_Animator character with a Universal rig and automatic binding.</li>
+        <li>Automatically rig and bind your own humanoid mesh to the Universal rig.</li>
+        <li>Rig and animate suitable humanoid meshes created with AI modeling tools.</li>
+        <li>Create and manage reusable animation files.</li>
+        <li>Transfer animations from Mixamo to Mixamo.</li>
+        <li>Transfer animations from Universal to Universal.</li>
+        <li>Transfer animations from Mixamo to Universal.</li>
+        <li>Transfer animations from Universal to Mixamo.</li>
+        <li>Transfer animations from Mixamo to MakeHuman.</li>
+        <li>Transfer animations from Universal to MakeHuman.</li>
+        <li>Import multiple motion files as an NLA sequence.</li>
+      </ul>
 
-  </main>
+      <h2>Beta limitations</h2>
+
+      <ul>
+        <li>
+          Motion capture is available in this Beta release and is still under active development.
+          Results may vary depending on video quality, camera angle, visibility, movement complexity,
+          and character proportions.
+        </li>
+        <li>
+          Motion capture currently focuses on body movement and does not provide full finger
+          or detailed hand capture.
+        </li>
+        <li>
+          Some captured animations may require motion cleanup or adjustment, especially for
+          complex foot contact, rapid movement, occlusion, or unusual poses.
+        </li>
+        <li>MakeHuman is currently supported as a target, not as a tested source.</li>
+        <li>Custom meshes must be clean humanoids in a T-pose or wide A-pose.</li>
+        <li>
+          Automatic rigging and skinning may require manual adjustments on unusual meshes
+          or extreme proportions.
+        </li>
+        <li>Unknown or heavily modified rig structures are not guaranteed to work.</li>
+      </ul>
+
+      <p class="muted">
+        AI_Animator is currently offered as a Beta. Motion capture, animation cleanup,
+        rig compatibility, and workflow tools will continue to improve during development.
+      </p>
+    </section>
+
+  </header>
 
   <footer class="wrap foot">
-    <p>Contact: <a href="mailto:archero455@gmail.com">AI_Animator@gmail.com</a></p>
+    <p>
+      Contact:
+      <a href="mailto:archero455@gmail.com">AI_Animator@gmail.com</a>
+    </p>
 
     <span class="muted">© AI_Animator</span>
   </footer>
-  <script src="https://app.lemonsqueezy.com/js/lemon.js" defer></script>
 
+  <script src="https://app.lemonsqueezy.com/js/lemon.js" defer></script>
 </body>
 </html>
